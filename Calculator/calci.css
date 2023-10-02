@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+
+.calci {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#input {
+  height: 63px;
+  color: white;
+  text-align: right;
+  overflow: hidden;
+  max-width: 295px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 10px;
+}
+
+button {
+  height: 60px;
+  width: 60px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+
+.purple {
+  color: rgb(127, 192, 232);
+}
